@@ -1,0 +1,42 @@
+{
+    "name": "hospital-mcp/sistema-bienes",
+    "description": "Sistema de Gestión de Bienes Nacionales - Maternidad Concepción Palacios",
+    "type": "project",
+    "license": "GPL-3.0",
+    "require": {
+        "php": ">=7.4",
+        "tecnickcom/tcpdf": "^6.6",
+        "phpoffice/phpspreadsheet": "^2.1",
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.10",
+        "phpstan/phpstan": "^1.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers/helpers.php"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "scripts": {
+        "lint": "phpcs --standard=phpcs.xml",
+        "lint:fix": "phpcbf --standard=phpcs.xml",
+        "analyze": "phpstan analyse --configuration=phpstan.neon",
+        "test": "php tests/run_tests.php",
+        "check": [
+            "@lint",
+            "@analyze",
+            "@test"
+        ]
+    }
+}

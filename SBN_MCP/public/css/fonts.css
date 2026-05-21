@@ -1,0 +1,9 @@
+/* Fuente local — fallback seguro sin CDN externo */
+/* Si se desea Plus Jakarta Sans, descargar los archivos .woff2 en public/fonts/ */
+/* y reemplazar este archivo con las declaraciones @font-face correspondientes  */
+
+:root {
+    --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, -apple-system,
+                BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+                Arial, 'Noto Sans', sans-serif;
+}

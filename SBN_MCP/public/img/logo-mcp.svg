@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <rect width="200" height="60" rx="6" fill="#1e3a5f"/>
+  <text x="12" y="22" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#ffffff" letter-spacing="1">MATERNIDAD</text>
+  <text x="12" y="38" font-family="Arial,sans-serif" font-size="13" font-weight="900" fill="#4fc3f7" letter-spacing="0.5">CONCEPCIÓN PALACIOS</text>
+  <text x="12" y="52" font-family="Arial,sans-serif" font-size="8" fill="#90caf9" letter-spacing="0.5">Sistema de Gestión de Bienes Nacionales</text>
+  <rect x="170" y="8" width="22" height="22" rx="3" fill="#4fc3f7"/>
+  <text x="181" y="24" font-family="Arial,sans-serif" font-size="11" font-weight="900" fill="#1e3a5f" text-anchor="middle">BN</text>
+</svg>
